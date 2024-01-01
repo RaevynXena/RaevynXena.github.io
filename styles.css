@@ -1,41 +1,41 @@
- body {
-    font-family: Arial, sans-serif;
+body {
+    font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    color: #333;
-    background-color: #f4f4f4;
-    padding: 20px;
-    text-align: center;
+    background-color: #f5f5f5;
 }
 
 header {
-    background-color: #f4f4f4;
-    padding: 20px;
+    background-color: #212529;
+    color: #ffffff;
+    padding: 1rem;
     text-align: center;
 }
 
-h1, h2 {
-    margin: 0;
-}
-
-.contact, .skills, .experience, .education {
-    padding: 20px;
+h1, h2, h3 {
+    color: #212529;
 }
 
 h3 {
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
 
-.job, .degree {
-    margin-bottom: 20px;
+section {
+    background-color: #ffffff;
+    margin: 2rem 0;
+    padding: 2rem;
+    border-radius: 5px;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
+.contact p, .skills ul li, .experience .job p {
+    margin-bottom: 0.5rem;
 }
 
-footer {
-    background-color: #f4f4f4;
-    padding: 10px;
-    text-align: center;
+.experience .job h4 {
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+    section {
+        padding: 1rem;
+    }
 }
