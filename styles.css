@@ -1,18 +1,19 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     background-color: #f5f5f5;
+    color: #333;
 }
 
 header {
-    background-color: #212529;
+    background-color: #2980b9;
     color: #ffffff;
     padding: 1rem;
     text-align: center;
 }
 
 h1, h2, h3 {
-    color: #212529;
+    color: #2980b9;
 }
 
 h3 {
@@ -32,6 +33,40 @@ section {
 
 .experience .job h4 {
     margin-bottom: 1rem;
+}
+
+.section-title {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills ul li {
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    background-color: #e0e0e0;
+    border-radius: 3px;
+}
+
+.skills ul li:hover {
+    background-color: #d0d0d0;
+}
+
+.experience .job {
+    margin-bottom: 1rem;
+}
+
+.experience .job p {
+    margin-bottom: 0.5rem;
+}
+
+.experience .job .job-dates {
+    color: #808080;
+    font-size: 0.9rem;
 }
 
 @media (max-width: 768px) {
